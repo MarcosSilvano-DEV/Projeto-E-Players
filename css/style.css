@@ -34,7 +34,6 @@ img {
 .TOPO {
     width: 100%;
     height: 5em;
-    background-color: white;
 }
 
 .CONTENT {
@@ -42,27 +41,41 @@ img {
     height: 100%;
     max-width: 75em;
     margin: auto;
-    background-color: yellow;
 
 }
 
 .FLEX_CENTER_BT {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .TOPO img {
-    max-width: 21.18em;
+    max-width: 12.32em;
 }
 
 .MENU {
-    height: 100%;
-    max-width: 54em;
+    width: 100%;
+    max-width: 50em;
 }
 .MENU ul {
     list-style-type: none;
     display: flex;
+    justify-content: space-around;
+}
+
+.MENU a {
+    color: white;
+    font-family: ;
+    text-decoration: none;
+    font-size: 1.10em;
+    padding: 1.3em 1em;
+    text-transform: uppercase;
+    font-weight: 550;
+}
+
+.MENU a:hover {
+    background-color: midnightblue;
 }
 
 @media screen and (max-width: 74.93em){
