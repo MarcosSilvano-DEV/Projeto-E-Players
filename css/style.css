@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 :root {
     --background:#000000;
@@ -41,6 +41,7 @@ img {
     height: 100%;
     max-width: 75em;
     margin: auto;
+    padding-right: 0.5em;
 
 }
 
@@ -58,6 +59,7 @@ img {
     width: 100%;
     max-width: 50em;
 }
+
 .MENU ul {
     list-style-type: none;
     display: flex;
@@ -66,16 +68,47 @@ img {
 
 .MENU a {
     color: white;
-    font-family: ;
+    font-family: 'Bebas Neue', cursive;
     text-decoration: none;
     font-size: 1.10em;
-    padding: 1.3em 1em;
+    padding: 1.4em 1em;
     text-transform: uppercase;
     font-weight: 550;
 }
 
 .MENU a:hover {
-    background-color: midnightblue;
+    background-color: var(--blue);
+}
+
+.CONTENT2 {
+    width: 10%;
+    height: 50%;
+    background-color: var(--blue);
+    margin: 0.5em;
+}
+
+.MENU2 {
+    width: 100%;
+    max-width: 50%;
+}
+
+.MENU2 ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.MENU2 ul .LOGIN {
+    color: white;
+    font-size: 1.10em;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+    padding: 0.5em 2.0em;
+}
+
+.MENU2 .LOGIN:hover {
+    background-color: var(--blue);
 }
 
 #MENU-BARS {
