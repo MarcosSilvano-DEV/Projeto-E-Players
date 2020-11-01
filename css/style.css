@@ -78,6 +78,10 @@ img {
     background-color: midnightblue;
 }
 
+#MENU-BARS {
+    display: none;
+}
+
 @media screen and (max-width: 74.93em){
     
 }
